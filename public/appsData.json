@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://i.ibb.co/jvMYXRMZ/chatpulse.webp",
+    "title": "ChatPulse AI",
+    "companyName": "NeuraSoft Labs",
+    "id": 1,
+    "description": "Unleash your creative potential with ChatPulse AI, an advanced assistant for seamless chatting, eloquent writing, and enhanced productivity. Powered by cutting-edge neural networks from NeuraSoft Labs, it helps you brainstorm ideas, draft emails, and generate content in seconds, allowing you to think and create faster than ever before.",
+    "size": 82,
+    "reviews": 156000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 34000 },
+      { "name": "5 star", "count": 84000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/1YNyWStS/pixelflow.jpg",
+    "title": "PixelFlow Editor",
+    "companyName": "MotionFox Studio",
+    "id": 2,
+    "description": "Transform your mobile photos and videos into cinematic masterpieces with PixelFlow Editor. This professional-grade suite for creators offers a full range of tools, including multi-layer editing, stunning real-time effects, and precise color grading. Whether you're a social media influencer or a passionate hobbyist, MotionFox Studio gives you the power to tell your story beautifully.",
+    "size": 128,
+    "reviews": 89000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 13000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 38000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/3m74k4Z9/icons8-soundpad-480.png",
+    "title": "SoundPad Studio",
+    "companyName": "EchoWorks",
+    "id": 3,
+    "description": "Welcome to SoundPad Studio, your personal recording booth on the go. Easily capture high-fidelity audio, remix tracks with an intuitive interface, and apply professional sound filters to make your creations pop. With instant replay and seamless sharing options, EchoWorks makes it simple to produce podcasts, music, or fun audio clips for the world to hear.",
+    "size": 64,
+    "reviews": 23000,
+    "ratingAvg": 4.5,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5300 },
+      { "name": "5 star", "count": 12400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/ds7GNFB4/fitgo.webp",
+    "title": "FitGo Tracker",
+    "companyName": "ZenMotion Health",
+    "id": 4,
+    "description": "Achieve your wellness goals with FitGo Tracker, the all-in-one fitness and health companion from ZenMotion Health. It meticulously tracks your daily activity, including steps, calories burned, workout intensity, and real-time heart rate. With personalized insights and progress reports, FitGo empowers you to build healthier habits and live a more active life.",
+    "size": 92,
+    "reviews": 120000,
+    "ratingAvg": 4.7,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 76000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/8DqtgVkn/taskly.webp",
+    "title": "Taskly Organizer",
+    "companyName": "ClearMind Apps",
+    "id": 5,
+    "description": "Regain control of your day with Taskly Organizer, the ultimate productivity tool for managing your busy life. Effortlessly handle task lists, track complex project milestones, and implement effective time-blocking strategies to maximize your focus. ClearMind Apps designed Taskly to be your smart companion for getting things done efficiently.",
+    "size": 58,
+    "reviews": 54000,
+    "ratingAvg": 4.2,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 19000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/0RrFFQ7L/travelgo.png",
+    "title": "TravelGo Planner",
+    "companyName": "WanderTech",
+    "id": 6,
+    "description": "Say goodbye to travel planning stress with TravelGo Planner by WanderTech. Our intelligent app creates personalized, AI-generated itineraries tailored to your interests, helps you manage your budget with intuitive tracking tools, and keeps you prepared with live weather updates for your destination. Your next great adventure is just a few taps away.",
+    "size": 77,
+    "reviews": 43000,
+    "ratingAvg": 4.4,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/KxX7tF8W/learnify.webp",
+    "title": "Learnify Academy",
+    "companyName": "EduSmart Co.",
+    "id": 7,
+    "description": "Unlock new skills and advance your career with Learnify Academy, an interactive online learning platform from EduSmart Co. Dive into a vast library of expert-led video tutorials, test your knowledge with engaging quizzes, and earn valuable certifications to showcase your achievements. Learning has never been more accessible or effective.",
+    "size": 110,
+    "reviews": 76000,
+    "ratingAvg": 4.5,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 44000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/4n9ny3S3/cryptonow.webp",
+    "title": "CryptoNow Wallet",
+    "companyName": "BlockLabs",
+    "id": 8,
+    "description": "Navigate the world of cryptocurrency with confidence using CryptoNow Wallet by BlockLabs. Our secure and blazing-fast wallet provides robust support for multiple coins, offers staking options to grow your assets, and delivers real-time market tracking and alerts. Manage your digital portfolio with institutional-grade security in the palm of your hand.",
+    "size": 68,
+    "reviews": 98000,
+    "ratingAvg": 4.3,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 13000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/YFjv8490/mindwave.png",
+    "title": "MindWave Relax",
+    "companyName": "Serenity Apps",
+    "id": 9,
+    "description": "Find your inner peace with MindWave Relax, the perfect companion for meditation, focus, and restful sleep. Explore a rich library of calming ambient sounds, follow expert-guided meditation sessions, and improve your concentration with customizable focus timers. Serenity Apps helps you reduce stress and improve your mental well-being every day.",
+    "size": 54,
+    "reviews": 21000,
+    "ratingAvg": 4.8,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 15100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/1fBvFWC2/quicknote.png",
+    "title": "QuickNote Pro",
+    "companyName": "NoteCraft Systems",
+    "id": 10,
+    "description": "Capture your thoughts instantly with QuickNote Pro, a beautifully minimal and efficient note-taking app. It works seamlessly offline and syncs across all your devices via the cloud, ensuring your notes are always safe and accessible. With full markdown support, it's the perfect tool for writers, developers, and thinkers who value speed and simplicity.",
+    "size": 41,
+    "reviews": 56000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 35500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/b5TZ280D/grocerbee.jpg",
+    "title": "GrocerBee",
+    "companyName": "UrbanMarket Ltd.",
+    "id": 11,
+    "description": "Skip the lines and get your groceries delivered fast with GrocerBee from UrbanMarket Ltd. Browse thousands of fresh products from local stores, place your order in minutes, and follow your delivery in real-time right to your doorstep. Unlock exclusive member discounts and enjoy the ultimate convenience in grocery shopping.",
+    "size": 89,
+    "reviews": 115000,
+    "ratingAvg": 4.1,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 14000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 26000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/JRBvQ6X6/driveguard.webp",
+    "title": "DriveGuard Dashcam",
+    "companyName": "AutoVision",
+    "id": 12,
+    "description": "Protect yourself on the road with DriveGuard Dashcam, the smart driving recorder from AutoVision. It turns your phone into a powerful dashcam that records your journey in crisp HD, automatically detects potential collisions using G-force sensors, and securely backs up critical video evidence to the cloud. Drive smarter and safer every day.",
+    "size": 134,
+    "reviews": 28000,
+    "ratingAvg": 4.4,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 14600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/s9HT46GR/streamify.webp",
+    "title": "Streamify Music",
+    "companyName": "SoundFusion Co.",
+    "id": 13,
+    "description": "Immerse yourself in the world of sound with Streamify Music, your gateway to unlimited music streaming. Discover new artists, enjoy expertly curated playlists, and listen to personalized mixes tailored to your taste. With offline downloads, you can take your favorite songs anywhere, even without an internet connection.",
+    "size": 96,
+    "reviews": 480000,
+    "ratingAvg": 4.5,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 26000 },
+      { "name": "2 star", "count": 32000 },
+      { "name": "3 star", "count": 44000 },
+      { "name": "4 star", "count": 95000 },
+      { "name": "5 star", "count": 283000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/1tw9j3xt/homebuddy.webp",
+    "title": "HomeBuddy IoT",
+    "companyName": "SmartHive",
+    "id": 14,
+    "description": "Simplify your connected life with HomeBuddy IoT, the central hub for your smart home. This intuitive app from SmartHive allows you to control and monitor all your compatible devices—from lights to thermostats—in one convenient place. Create custom automation scenes and receive intelligent alerts to make your home smarter and more responsive.",
+    "size": 103,
+    "reviews": 37000,
+    "ratingAvg": 4.2,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 2400 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 8700 },
+      { "name": "5 star", "count": 17200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/39Jf7dhP/weatherly.png",
+    "title": "Weatherly Pro",
+    "companyName": "SkyCast Inc.",
+    "id": 15,
+    "description": "Stay ahead of the weather with Weatherly Pro by SkyCast Inc., the most accurate and visually stunning forecast app. Get hyper-local, real-time weather updates, view interactive radar maps, and receive critical severe storm alerts to keep you safe. Its beautiful 3D visuals make checking the weather an enjoyable experience.",
+    "size": 59,
+    "reviews": 89000,
+    "ratingAvg": 4.6,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 54800 }
+    ]
+  }
+]
