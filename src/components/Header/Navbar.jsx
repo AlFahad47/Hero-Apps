@@ -19,7 +19,7 @@ const Navbar = () => {
     </div>
     <div className='flex'>
         <img src={logoImg} className='max-h-10' alt="" />
-    <a className="btn btn-ghost text-xl">HERO.IO</a>
+    <a className="btn btn-ghost text-xl text-gradient">HERO.IO</a>
 
     </div>
   </div>

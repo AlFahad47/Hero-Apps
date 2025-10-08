@@ -2,7 +2,7 @@ import { Outlet } from "react-router"
 import Navbar from "../components/Header/Navbar"
 const MainLayout = () => {
   return (
-    <div>
+    <div className="max-w-[1600px] mx-auto">
         <Navbar/>
         <Outlet/>
     </div>
