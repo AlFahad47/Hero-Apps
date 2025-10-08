@@ -1,6 +1,7 @@
 import React from "react";
 import dawnImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
+import { Link } from "react-router";
 const Card = ({ singleData }) => {
   console.log(singleData);
 function formatNumberRound(num) {
@@ -23,7 +24,7 @@ function formatNumberRound(num) {
     ratings,
   } = singleData || {};
   return (
-    <div className="max-w-[348px] bg-white rounded-sm p-4">
+    <Link to={`/details/${id}`} className="max-w-[348px] bg-white rounded-sm p-4 cursor-pointer">
       <img className="w-full h-[316px] object-cover mx-auto rounded-lg" src={image} alt="" />
       <h2 className="my-4">{title}</h2>
       <div className="flex justify-between">
@@ -36,7 +37,7 @@ function formatNumberRound(num) {
           <h2 className="font-medium text-[16px] text-[#00D390]">{ratingAvg}</h2>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

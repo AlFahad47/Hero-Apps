@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
+import { Link } from "react-router";
 
 const Top = ({data}) => {
     // console.log(data)
@@ -14,7 +15,7 @@ const Top = ({data}) => {
       .slice(0, 8).map(singleData=><Card key={singleData.id} singleData={singleData}></Card>)
         }
       </div>
-      <button className="btn bg-gradient text-white">Show All</button>
+      <Link to="/all" className="btn bg-gradient text-white">Show All</Link>
     </div>
   );
 };
