@@ -10,7 +10,7 @@ const Top = ({data}) => {
       <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 mb-10">
         {
             [...data]
-      .sort((a, b) => b.ratingAvg - a.ratingAvgÏ)
+      .sort((a, b) => parseFloat(b.ratingAvg) -parseFloat(a.ratingAvg) )
       .slice(0, 8).map(singleData=><Card key={singleData.id} singleData={singleData}></Card>)
         }
       </div>
