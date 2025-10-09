@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../../hooks/useApps";
 import ratingImg from "../../assets/icon-ratings.png";
 import dawnImg from "../../assets/icon-downloads.png";
 import reviewImg from "../../assets/icon-review.png";
+
+import { updateList,loadList } from "../../utility/localStorage";
 
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
@@ -11,6 +13,20 @@ import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
+
+  
+  const [installBtn,setInstallBtn] = useState(false);
+
+  useEffect(()=>{
+    const list = loadList();
+    if(list.some(l=>String(l.id)===id)){
+        setInstallBtn(true)
+    }
+  },[])
+  const handleClick =()=>{
+    setInstallBtn(true)
+    updateList(app)
+  }
 
 function formatNumberRound(num) {
   const formatter = new Intl.NumberFormat('en', { notation: 'compact', maximumFractionDigits: 0 });
@@ -36,7 +52,7 @@ function formatNumberRound(num) {
   console.log(reversedRatings)
   return (
     <div className="my-20">
-      <div className="grid grid-cols-4 gap-10">
+      <div className="grid grid-cols-4 gap-10 max-w-11/12 mx-auto">
         <img className="col-span-1" src={image} alt="" />
         <div className="col-span-3">
           <h2 className="font-bold text-[32px]">{title}</h2>
@@ -61,16 +77,16 @@ function formatNumberRound(num) {
               <h2 className="font-extrabold text-[40px]">{formatNumberRound(reviews)}</h2>
             </div>
           </div>
-          <button className="btn">Install Now ({size} MB)</button>
+          <button onClick={handleClick} disabled={installBtn} className="btn bg-[#00D390] text-white">{installBtn?"Installed":`Install Now ({size} MB)`}</button>
         </div>
       </div>
       {/* bar chart */}
-      <div className="w-full h-60 my-10"><ResponsiveContainer  width="100%" height="100%">
+      <div className="max-w-11/12 mx-auto h-60 my-10"><ResponsiveContainer  width="100%" height="100%">
           <BarChart
             data={reversedRatings}
          
             layout="vertical"
-            margin={{ top: 5, right: 20, left: 20, bottom: 5 }}
+            // margin={{ top: 5, right: 20, left: 0, bottom: 5 }}
           >
             <XAxis type="number" stroke="#627382"
               fontSize={12}
