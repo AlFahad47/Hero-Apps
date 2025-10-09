@@ -15,10 +15,10 @@ function formatNumberRound(num) {
   if (!setInstallList.length) return <p>No data Available</p>;
 
   const sortedItem = (() => {
-    if (sortOrder === "size-asc") {
-      return [...installList].sort((a, b) => a.size - b.size);
-    } else if (sortOrder === "size-desc") {
-      return [...installList].sort((a, b) => b.size - a.size);
+    if (sortOrder === "downloads-asc") {
+      return [...installList].sort((a, b) => a.downloads - b.downloads);
+    } else if (sortOrder === "downloads-desc") {
+      return [...installList].sort((a, b) => b.downloads - a.downloads);
     } else {
       return installList;
     }
@@ -42,7 +42,7 @@ function formatNumberRound(num) {
         </p>
       </div>
       <div className="flex justify-between mb-5">
-        <h2 className="font-semibold text-2xl">(0) Apps Found</h2>
+        <h2 className="font-semibold text-2xl">{installList.length} Apps Found</h2>
 
         {/* sort */}
 
@@ -53,8 +53,8 @@ function formatNumberRound(num) {
             onChange={(e) => setSortOrder(e.target.value)}
           >
             <option value="none">Sort By Size</option>
-            <option value="size-desc">High-Low</option>
-            <option value="size-asc">Low-High</option>
+            <option value="downloads-desc">High-Low</option>
+            <option value="downloads-asc">Low-High</option>
           </select>
         </label>
       </div>
