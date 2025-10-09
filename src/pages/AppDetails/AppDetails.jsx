@@ -11,6 +11,7 @@ import { updateList, loadList } from "../../utility/localStorage";
 
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
 import Loading from "../../components/Loading/Loading";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -26,6 +27,8 @@ const AppDetails = () => {
   }, []);
   const handleClick = () => {
     setInstallBtn(true);
+    toast.success(`${title} Installed Successfully!`);
+
     updateList(app);
   };
 

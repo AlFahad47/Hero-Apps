@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { loadList, removeFromlist } from "../../utility/localStorage";
 import ratingImg from '../../assets/icon-ratings.png';
 import downImg from '../../assets/icon-downloads.png'
+import { toast } from "react-toastify";
 
 const MyInstallation = () => {
   const [installList, setInstallList] = useState(() => loadList());
@@ -23,11 +24,13 @@ function formatNumberRound(num) {
     }
   })();
 
-  const handleRemove = id => {
+  const handleRemove = (id,title) => {
     // remove from localstorage
     removeFromlist(id)
     // for ui instant update
     setInstallList(prev => prev.filter(p => p.id !== id))
+    //toast
+    toast(`${title} has been uninstalled from your device`)
   }
 
   return (
@@ -71,7 +74,7 @@ function formatNumberRound(num) {
               </div>
             </div>
            </div>
-            <button onClick={() => handleRemove(p.id)} className="btn bg-[#00D390] text-white">Uninstall</button>
+            <button onClick={() => handleRemove(p.id,p.title)} className="btn bg-[#00D390] text-white">Uninstall</button>
           </div>
         ))}
       </div>
