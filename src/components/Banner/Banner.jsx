@@ -18,14 +18,14 @@ const Banner = () => {
             into digital experiences that truly make an impact.
           </p>
           <div className="space-x-4">
-            <button className="btn bg-white text-black border-[#e5e5e5] px-5">
+            <a href="https://play.google.com/store/games" className="btn bg-white text-black border-[#e5e5e5] px-5">
               <img className="max-w-[32px] py-3" src={playImg} alt="" />
               <h2>Google Play</h2>
-            </button>
-            <button className="btn bg-white text-black border-[#e5e5e5] px-5">
+            </a>
+            <a href="https://www.apple.com/app-store/" className="btn bg-white text-black border-[#e5e5e5] px-5">
               <img className="max-w-[32px] py-3" src={appsImg} alt="" />
               App Store
-            </button>
+            </a>
           </div>
         </div>
       </div>

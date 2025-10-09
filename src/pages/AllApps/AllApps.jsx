@@ -3,6 +3,9 @@ import Card from "../../components/Card/Card";
 import useApps from "../../hooks/useApps";
 import { useState } from "react";
 import Loading from "../../components/Loading/Loading";
+import { Link } from "react-router";
+import appsErrorImg from "../../assets/App-Error.png";
+
 
 const AllApps = () => {
   const { apps, loading, error } = useApps();
@@ -56,6 +59,20 @@ const AllApps = () => {
       </div>
       {loading ? (
         <Loading />
+      ) : searchedApps.length === 0 ? (
+        <div className="lg:m-20 md:m-15 m-10 flex flex-col items-center">
+          
+          <h2 className="font-semibold lg:text-5xl md:text-4xl  text-xl  mt-16">
+            NO APPS FOUND
+          </h2>
+          <p className="font-normal lg:text-xl text-sm text-[#627382] mb-4 mt-2 text-center">
+            The App you are requesting is not found on our system. please try
+            another apps
+          </p>
+          <button onClick={()=>setSearch("")} to="/all" className="btn bg-gradient text-white mb-20">
+            Show All Apps
+          </button>
+        </div>
       ) : (
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 mb-10">
           {searchedApps.map((singleData) => (

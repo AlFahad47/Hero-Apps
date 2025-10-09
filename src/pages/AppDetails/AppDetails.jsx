@@ -118,7 +118,7 @@ const AppDetails = () => {
             disabled={installBtn}
             className="btn bg-[#00D390] text-white"
           >
-            {installBtn ? "Installed" : `Install Now ({size} MB)`}
+            {installBtn ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>
