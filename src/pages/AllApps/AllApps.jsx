@@ -2,21 +2,17 @@ import React from "react";
 import Card from "../../components/Card/Card";
 import useApps from "../../hooks/useApps";
 import { useState } from "react";
+import Loading from "../../components/Loading/Loading";
 
 const AllApps = () => {
-    const { apps, loading, error } = useApps();
-    console.log()
+  const { apps, loading, error } = useApps();
+  console.log();
 
-
-  const [search, setSearch] = useState('')
-  const term = search.trim().toLocaleLowerCase()
+  const [search, setSearch] = useState("");
+  const term = search.trim().toLocaleLowerCase();
   const searchedApps = term
-    ? apps.filter(app =>
-        app.title.toLocaleLowerCase().includes(term)
-      )
-    : apps
-
-
+    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
+    : apps;
 
   return (
     <div className=" w-11/12 mx-auto">
@@ -27,7 +23,9 @@ const AllApps = () => {
         </p>
       </div>
       <div className="flex justify-between mb-5">
-        <h2 className="font-semibold text-2xl">({searchedApps.length}) Apps Found</h2>
+        <h2 className="font-semibold text-2xl">
+          ({searchedApps.length}) Apps Found
+        </h2>
 
         {/* search */}
         <label className="input">
@@ -47,16 +45,24 @@ const AllApps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input  value={search}
-            onChange={e => setSearch(e.target.value)}
-             type="search" required placeholder="search Apps" />
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            type="search"
+            required
+            placeholder="search Apps"
+          />
         </label>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 mb-10">
-        {
-            searchedApps.map(singleData=><Card singleData={singleData}></Card>)
-        }
-      </div>
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 mb-10">
+          {searchedApps.map((singleData) => (
+            <Card singleData={singleData}></Card>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
