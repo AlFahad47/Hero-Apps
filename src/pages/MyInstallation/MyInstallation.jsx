@@ -3,8 +3,12 @@ import { loadList, removeFromlist } from "../../utility/localStorage";
 import ratingImg from '../../assets/icon-ratings.png';
 import downImg from '../../assets/icon-downloads.png'
 import { toast } from "react-toastify";
+import useApps from "../../hooks/useApps";
+import Loading from "../../components/Loading/Loading";
 
 const MyInstallation = () => {
+      const { apps, loading , error } = useApps();
+
   const [installList, setInstallList] = useState(() => loadList());
   const [sortOrder, setSortOrder] = useState("none");
 function formatNumberRound(num) {
@@ -32,7 +36,7 @@ function formatNumberRound(num) {
     //toast
     toast(`${title} has been uninstalled from your device`)
   }
-
+  if(loading) return <Loading/>
   return (
     <div className=" w-11/12 mx-auto">
       <div className="text-center my-20">
