@@ -1,16 +1,64 @@
-# React + Vite
+# 🚀 Hero Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hero Apps is a modern **Single Page Application (SPA)** built with **React** and **Vite** that lets users **search**, **install**, and **uninstall** apps from a clean, fast, and dynamic interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Description
 
-## React Compiler
+**Hero Apps** is an interactive app store–style web application where users can:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 **Search** for available apps  
+- ⬇️ **Install** apps instantly  
+- ❌ **Uninstall** them when no longer needed  
 
-## Expanding the ESLint configuration
+The project is designed as a **SPA (Single Page Application)** for a smooth and fast experience without page reloads.  
+Built using the latest frontend technologies, it ensures both high performance and a responsive design optimized for all devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Technologies Used
+
+### 🖥️ Frontend
+- **React 19** – Component-based UI library  
+- **Vite 7** – Lightning-fast development and build tool  
+- **React Router 7** – For seamless SPA navigation  
+- **Axios** – To fetch and manage API data  
+- **Recharts** – For app usage analytics and data visualization  
+- **React Toastify** – For elegant toast notifications  
+
+### 🎨 Styling
+- **Tailwind CSS 4** – Utility-first CSS framework  
+- **DaisyUI 5** – Tailwind-based UI component library for faster design  
+
+### 🧰 Development Tools
+- **ESLint 9** – Ensures clean, consistent, and error-free code  
+- **@vitejs/plugin-react** – React plugin for Vite  
+
+---
+
+## ⚙️ Scripts
+
+| Command | Description |
+|----------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build the production app |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run ESLint to check for code issues |
+
+---
+
+## 📁 Project Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
