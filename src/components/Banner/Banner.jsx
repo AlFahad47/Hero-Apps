@@ -17,14 +17,14 @@ const Banner = () => {
             simpler, smarter, and more exciting. Our goal is to turn your ideas
             into digital experiences that truly make an impact.
           </p>
-          <div className="space-x-4">
-            <a href="https://play.google.com/store/games" className="btn bg-white text-black border-[#e5e5e5] px-5">
+          <div className="space-x-4 flex">
+            <a href="https://play.google.com/store/games" className="flex  items-center justify-center lg:w-[200px] md:w-[200px] w-[175px] gap-2 bg-[#f5f5f5] text-black border-[#D2D2D2] border-1 px-5 rounded-sm">
               <img className="max-w-[32px] py-3" src={playImg} alt="" />
               <h2>Google Play</h2>
             </a>
-            <a href="https://www.apple.com/app-store/" className="btn bg-white text-black border-[#e5e5e5] px-5">
+            <a href="https://www.apple.com/app-store/" className="flex  items-center justify-center lg:w-[200px] md:w-[200px] w-[175px] gap-2 bg-[#f5f5f5] text-black border-[#D2D2D2] border-1 px-5 rounded-sm">
               <img className="max-w-[32px] py-3" src={appsImg} alt="" />
-              App Store
+              <h2> App Store</h2>
             </a>
           </div>
         </div>
