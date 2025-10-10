@@ -90,7 +90,7 @@ const AllApps = () => {
           </button>
         </div>
       ) : (
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 mb-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 mb-10 justify-items-center">
           {searchedApps.map((singleData) => (
             <Card singleData={singleData}></Card>
           ))}

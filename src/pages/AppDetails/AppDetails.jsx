@@ -89,29 +89,29 @@ const AppDetails = () => {
             Developed by{" "}
             <span className="text-gradient font-semibold ">{companyName}</span>{" "}
           </p>
-          <div className="flex gap-6 mb-[30px]">
+          <div className="flex lg:flex-row md:flex-row flex-col gap-6 mb-[30px]">
             <div>
               <img src={dawnImg} alt="" />
-              <p className="font-normal text-[16px] min-w-[150px] my-2">
+              <p className="font-normal text-[16px] lg:min-w-[150px] md:min-w-[150px] my-2">
                 Downloads
               </p>
-              <h2 className="font-extrabold text-[40px]">
+              <h2 className="font-extrabold lg:text-[40px] md:text-[40px] text-[20px]">
                 {formatNumberRound(downloads)}
               </h2>
             </div>
             <div>
               <img src={ratingImg} alt="" />
-              <p className="font-normal text-[16px] min-w-[150px] my-2">
+              <p className="font-normal text-[16px] lg:min-w-[150px] md:min-w-[150px] my-2">
                 Average Ratings
               </p>
-              <h2 className="font-extrabold text-[40px]">{ratingAvg}</h2>
+              <h2 className="font-extrabold lg:text-[40px] md:text-[40px] text-[20px]">{ratingAvg}</h2>
             </div>
             <div>
               <img src={reviewImg} alt="" />
-              <p className="font-normal text-[16px] min-w-[150px] my-2">
+              <p className="font-normal text-[16px] lg:min-w-[150px] md:min-w-[150px] my-2">
                 Total Reviews
               </p>
-              <h2 className="font-extrabold text-[40px]">
+              <h2 className="font-extrabold lg:text-[40px] md:text-[40px] text-[20px]">
                 {formatNumberRound(reviews)}
               </h2>
             </div>
@@ -131,7 +131,7 @@ const AppDetails = () => {
           <BarChart
             data={reversedRatings}
             layout="vertical"
-            // margin={{ top: 5, right: 20, left: 0, bottom: 5 }}
+            margin={{ top: 5, right: 20, left: 0, bottom: 5 }}
           >
             <XAxis
               type="number"
@@ -152,8 +152,8 @@ const AppDetails = () => {
           </BarChart>
         </ResponsiveContainer>
       </div>
-      <div>
-        <h2 className="font-semibold text-2xl">Description</h2>
+      <div className="w-11/12 mx-auto">
+        <h2 className="font-semibold text-2xl mb-5">Description</h2>
         <p>{description}</p>
       </div>
     </div>
