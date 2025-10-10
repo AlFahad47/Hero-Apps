@@ -24,7 +24,7 @@ function formatNumberRound(num) {
     ratings,
   } = singleData || {};
   return (
-    <Link to={`/details/${id}`} className="max-w-[348px] bg-white rounded-sm p-4 cursor-pointer">
+    <Link to={`/details/${id}`} className="max-w-[348px] bg-white rounded-sm p-4 cursor-pointer min-w-[300px]">
       <img className="w-full h-[316px] object-cover mx-auto rounded-lg" src={image} alt="" />
       <h2 className="my-4">{title}</h2>
       <div className="flex justify-between">
