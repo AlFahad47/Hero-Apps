@@ -85,11 +85,12 @@ const AppDetails = () => {
         <img className="col-span-1" src={image} alt="" />
         <div className="col-span-3">
           <h2 className="font-bold text-[32px]">{title}</h2>
-          <p className="font-normal text-[20px] mb-[60px]">
+          <p className="font-normal text-[20px] mb-[30px]">
             Developed by{" "}
             <span className="text-gradient font-semibold ">{companyName}</span>{" "}
           </p>
-          <div className="flex lg:flex-row md:flex-row flex-col gap-6 mb-[30px]">
+          <hr className="text-[#001931] opacity-40" />
+          <div className="flex lg:flex-row md:flex-row flex-col gap-6 mb-[30px] mt-[30px]">
             <div>
               <img src={dawnImg} alt="" />
               <p className="font-normal text-[16px] lg:min-w-[150px] md:min-w-[150px] my-2">
@@ -125,8 +126,11 @@ const AppDetails = () => {
           </button>
         </div>
       </div>
+
       {/* bar chart */}
-      <div className="max-w-11/12 mx-auto h-60 my-10">
+      <div className="max-w-11/12 mx-auto h-50 mt-10 mb-20">
+                    <hr className="text-[#001931] opacity-40 pt-5" />
+        <h2 className="font-semibold text-2xl mb-2">Ratings</h2>
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={reversedRatings}
@@ -152,7 +156,10 @@ const AppDetails = () => {
           </BarChart>
         </ResponsiveContainer>
       </div>
-      <div className="w-11/12 mx-auto">
+
+      <div className="w-11/12 mx-auto ">
+        <hr className="text-[#001931] opacity-40 pt-5" />
+
         <h2 className="font-semibold text-2xl mb-5">Description</h2>
         <p>{description}</p>
       </div>

@@ -50,13 +50,13 @@ function formatNumberRound(num) {
 
         {/* sort */}
 
-        <label className="form-control w-full max-w-32">
+        <label className="form-control w-full max-w-[165px]">
           <select
             className="select select-bordered "
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
           >
-            <option value="none">Sort By Size</option>
+            <option value="none">Sort By Download</option>
             <option value="downloads-desc">High-Low</option>
             <option value="downloads-asc">Low-High</option>
           </select>
